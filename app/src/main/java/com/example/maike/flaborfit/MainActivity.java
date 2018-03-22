@@ -1,11 +1,13 @@
 package com.example.maike.flaborfit;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
+    public static final String EXTRA_ITEM_TITLE = "extra.item.title";
     public static final String EXERCISE_WEIGHTS = "Weight Lifting";
     public static final String EXERCISE_YOGA = "Yoga";
     public static final String EXERCISE_CARDIO = "Cardio";
@@ -40,7 +42,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         }
     }
-    private void loadDetailActivity(String exerciseTitle){
-
+    private void loadDetailActivity(String weightTitle){
+        Intent intent = new Intent(MainActivity.this, DetailsActivity.class);
+        intent.putExtra(MainActivity.EXTRA_ITEM_TITLE, weightTitle);
+        startActivity(intent);
+        //kan dit anders
     }
 }

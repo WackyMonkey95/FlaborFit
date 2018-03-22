@@ -27,6 +27,7 @@
             app:srcCompat="@drawable/weight" />
 
         <TextView
+            android:id="@+id/textView_weight_percentage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -103,7 +104,7 @@
             app:srcCompat="@drawable/lotus" />
 
         <TextView
-            android:id="@+id/textView_lotus"
+            android:id="@+id/textView_yoga_percentage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -178,7 +179,7 @@
             app:srcCompat="@drawable/heart" />
 
         <TextView
-            android:id="@+id/textView_cardio"
+            android:id="@+id/textView_cardio_percentage"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"

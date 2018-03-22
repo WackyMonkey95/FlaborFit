@@ -7,7 +7,7 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
-    public static final String EXTRA_ITEM_TITLE = "extra.item.title";
+    public static final String EXTRA_ITEM_TITLE = "extra_item_key";
     public static final String EXERCISE_WEIGHTS = "Weight Lifting";
     public static final String EXERCISE_YOGA = "Yoga";
     public static final String EXERCISE_CARDIO = "Cardio";
@@ -46,6 +46,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Intent intent = new Intent(MainActivity.this, DetailsActivity.class);
         intent.putExtra(MainActivity.EXTRA_ITEM_TITLE, weightTitle);
         startActivity(intent);
-        //kan dit anders
+        //kan dit anders --> yes, maar dit is de meest normale manieren tussen activities
     }
 }

@@ -19,7 +19,7 @@
         android:backgroundTint="#2ca5f5">
 
         <ImageView
-            android:id="@+id/Lotus"
+            android:id="@+id/weight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -27,7 +27,6 @@
             app:srcCompat="@drawable/weight" />
 
         <TextView
-            android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -39,10 +38,10 @@
             android:textSize="40sp" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView2_weight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/Lotus"
+            android:layout_alignBottom="@+id/weight"
             android:layout_alignParentStart="true"
             android:paddingLeft="5dp"
             android:text="Weight Lifting"
@@ -51,7 +50,7 @@
             android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView3_weight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -64,7 +63,7 @@
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView4_weight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
@@ -95,7 +94,7 @@
         android:backgroundTint="#916bcd">
 
         <ImageView
-            android:id="@+id/Lotus"
+            android:id="@+id/yoga"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -104,7 +103,7 @@
             app:srcCompat="@drawable/lotus" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView_lotus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -116,10 +115,10 @@
             android:textSize="40sp" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView2_lotus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/Lotus"
+            android:layout_alignBottom="@id/yoga"
             android:layout_alignParentStart="true"
             android:paddingLeft="5dp"
             android:text="Yoga"
@@ -128,7 +127,7 @@
             android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView3_lotus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -141,7 +140,7 @@
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView4_lotus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
@@ -171,7 +170,7 @@
         android:backgroundTint="#52ad56">
 
         <ImageView
-            android:id="@+id/Lotus"
+            android:id="@+id/cardio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -179,7 +178,7 @@
             app:srcCompat="@drawable/heart" />
 
         <TextView
-            android:id="@+id/textView"
+            android:id="@+id/textView_cardio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -191,10 +190,10 @@
             android:textSize="40sp" />
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textView2_cardio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignBottom="@+id/Lotus"
+            android:layout_alignBottom="@+id/cardio"
             android:layout_alignParentStart="true"
             android:paddingLeft="5dp"
             android:text="Cardio"
@@ -203,7 +202,7 @@
             android:textSize="20sp" />
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textView3_cardio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
@@ -216,7 +215,7 @@
             android:textSize="18sp" />
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView4_cardio"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
